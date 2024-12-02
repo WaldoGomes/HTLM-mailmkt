@@ -1,0 +1,194 @@
+@import url(_reset.css);
+
+.body{
+    max-width: 700px;
+}
+
+.cabecalho{
+    width: 100%;
+}
+
+.container__imagem{
+    max-width: 30%;
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista__menu{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    justify-content: center;
+}
+
+.lista-menu__link{
+    font-family: arial;
+    font-size: 13px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.lista-menu__link-promo{
+    font-family: arial;
+    font-size: 13px;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: red;
+}
+
+.container{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.banner__principal{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner__texto{
+    font-family: georgia;
+    font-size: 20pt;
+    text-align: center;
+    margin: 2em;
+    font-style: italic;   
+}
+
+.modelo__imagem{
+    padding: 1em;
+    size: 100%;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+}
+
+.produto{
+    display: flex;
+    align-content: center;
+    padding: 2em 0 2em;
+}
+
+.titulo__descricao{
+    font-family: Georgia;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.produto__texto{
+    font-family: Georgia;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+
+.botao__comprar{
+    color: white;
+    background: black;
+    font-size: 34px;
+    font-family: Arial;
+    width: 360px;
+    height: 90px;
+    border: none;   
+}
+
+.banner__see-more{
+    background-color: black;
+    margin: 1em;
+}
+
+.banner__see-more__texto{
+    font-family: georgia;
+    font-size: 23px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    height: 150px;
+    align-content: center;
+}
+
+.botao__see{
+    background-color: white;
+    font-family: arial;
+    font-size: 22px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 1em;
+}
+
+.social__media{
+    display: flex;
+    background-color: black;
+    height: 56px;
+    justify-content: space-between;
+}
+
+.social__logo{
+    width: 15%;
+    margin-left: 2em;
+}
+
+.social__redes-redes{
+    font-family: georgia;
+    font-size: 11px;
+    color: white;
+}
+
+.social__redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.social__redes-logos{
+    margin: 0.7em;
+}
+
+.vantagens{
+    display: flex;
+    margin: 2em;
+    justify-content: space-between;
+}
+
+
+.vantagens__bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vantagem__titulo{
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.vantagens__parcelamento-texto{
+    text-align: center;
+    font-family: georgia;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.vantagens__icones{
+    margin-bottom: 1em;
+}
+
+
+
+
